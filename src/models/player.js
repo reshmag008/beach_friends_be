@@ -18,7 +18,6 @@ module.exports = (sequelize, type) => {
         batting_style: { type: type.STRING, allowNull: true },
         bowling_style: { type: type.STRING, allowNull: true },
         team_id : { type: type.INTEGER, allowNull: true },
-        base_amount : { type: type.INTEGER, allowNull: true },
         bid_amount : { type: type.INTEGER, allowNull: true },
         status : { type: type.INTEGER, allowNull: false },
         jersey_name : { type: type.STRING, allowNull: true },
