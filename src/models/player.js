@@ -21,7 +21,6 @@ module.exports = (sequelize, type) => {
         bid_amount : { type: type.INTEGER, allowNull: true },
         status : { type: type.INTEGER, allowNull: false },
         jersey_name : { type: type.STRING, allowNull: true },
-        jersey_sleeve : { type: type.STRING, allowNull: true },
         jersey_no : { type: type.STRING, allowNull: true },
         jersey_size : { type: type.STRING, allowNull: true },
         payment_screenshot : { type: type.STRING, allowNull: true },
